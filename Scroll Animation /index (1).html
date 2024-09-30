@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Growing Parallax</title>
+    <style>
+        /* General Styles */
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            font-family: Arial, sans-serif;
+        }
+        section {
+            position: relative;
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            font-size: 2em;
+        }
+        /* Parallax Backgrounds */
+        .parallax {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-size: cover;
+            background-position: center;
+            transform: translateZ(0);
+        }
+
+        /* Section Styles */
+        #section1 {
+            background: linear-gradient(to bottom, #1e3c72, #2a5298); /* Blue sky */
+        }
+        #section2 {
+            background: linear-gradient(to bottom, #f7b733, #fc4a1a); /* Sunset */
+        }
+        #section3 {
+            background: linear-gradient(to bottom, #76b852, #8dc26f); /* Green field */
+        }
+        #section4 {
+            background: linear-gradient(to bottom, #654ea3, #eaafc8); /* Pinkish-purple sunset */
+        }
+
+        /* Parallax Image Style */
+        .bg1, .bg2, .bg3, .bg4 {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        /* Text Animations */
+        .content {
+            opacity: 0;
+            transition: opacity 1.5s ease-in-out;
+        }
+        .visible {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Section 1 - Seed -->
+    <section id="section1">
+        <div class="content" id="content1">
+            The seed is planted.
+        </div>
+        <img src="seed.jpg" alt="Seed" class="parallax bg1">
+    </section>
+
+    <!-- Section 2 - Sprout -->
+    <section id="section2">
+        <div class="content" id="content2">
+            The sprout breaks through the soil.
+        </div>
+        <img src="sprout.jpg" alt="Sprout" class="parallax bg2">
+    </section>
+
+    <!-- Section 3 - Budding Flower -->
+    <section id="section3">
+        <div class="content" id="content3">
+            The flower bud begins to form.
+        </div>
+        <img src="budding.jpg" alt="Budding Flower" class="parallax bg3">
+    </section>
+
+    <!-- Section 4 - Fully Grown Flower -->
+    <section id="section4">
+        <div class="content" id="content4">
+            The flower is in full bloom.
+        </div>
+        <img src="bloom.jpg" alt="Full Bloom Flower" class="parallax bg4">
+    </section>
+
+    <!-- JavaScript -->
+    <script>
+        // Parallax Effect
+        window.addEventListener('scroll', function() {
+            let scrollPosition = window.pageYOffset;
+
+            document.querySelector('.bg1').style.transform = 'translateY(' + scrollPosition * 0.5 + 'px)';
+            document.querySelector('.bg2').style.transform = 'translateY(' + scrollPosition * 0.4 + 'px)';
+            document.querySelector('.bg3').style.transform = 'translateY(' + scrollPosition * 0.3 + 'px)';
+            document.querySelector('.bg4').style.transform = 'translateY(' + scrollPosition * 0.2 + 'px)';
+        });
+
+        // Content Fade-in on Scroll
+        function revealOnScroll() {
+            const contents = document.querySelectorAll('.content');
+            contents.forEach((content) => {
+                const contentTop = content.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+
+                if (contentTop < windowHeight - 100) {
+                    content.classList.add('visible');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', revealOnScroll);
+    </script>
+</body>
+</html>
