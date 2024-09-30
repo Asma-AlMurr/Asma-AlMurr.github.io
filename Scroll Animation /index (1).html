@@ -10,125 +10,173 @@
             margin: 0;
             padding: 0;
             overflow-x: hidden;
-            font-family: Arial, sans-serif;
+            font-family: 'Playfair Display', serif;
         }
         section {
             position: relative;
             height: 100vh;
             width: 100%;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             text-align: center;
             color: white;
-            font-size: 2em;
-        }
-        /* Parallax Backgrounds */
-        .parallax {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-size: cover;
-            background-position: center;
-            transform: translateZ(0);
         }
 
-        /* Section Styles */
+        /* Title Page */
+        #titlePage {
+            background: linear-gradient(to bottom, #f12711, #f5af19);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        #titlePage h1 {
+            margin: 0;
+            font-size: 4em;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+        }
+
+        #titlePage h2 {
+            margin: 0;
+            font-size: 1.5em;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 1.2s ease-in-out, transform 1.2s ease-in-out;
+        }
+
+        #titlePage h1.visible, #titlePage h2.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Section Background Colors */
         #section1 {
-            background: linear-gradient(to bottom, #1e3c72, #2a5298); /* Blue sky */
+            background: linear-gradient(to bottom, #1e3c72, #2a5298);
         }
         #section2 {
-            background: linear-gradient(to bottom, #f7b733, #fc4a1a); /* Sunset */
+            background: linear-gradient(to bottom, #f7b733, #fc4a1a);
         }
         #section3 {
-            background: linear-gradient(to bottom, #76b852, #8dc26f); /* Green field */
+            background: linear-gradient(to bottom, #76b852, #8dc26f);
         }
         #section4 {
-            background: linear-gradient(to bottom, #654ea3, #eaafc8); /* Pinkish-purple sunset */
+            background: linear-gradient(to bottom, #654ea3, #eaafc8);
         }
 
-        /* Parallax Image Style */
-        .bg1, .bg2, .bg3, .bg4 {
-            width: 100%;
-            height: 100%;
+        /* Parallax Images */
+        .parallax {
             position: absolute;
-            top: 0;
-            left: 0;
-            z-index: -1;
+            width: 50%;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: all 1.5s ease-in-out;
+        }
+        .parallax.visible {
+            opacity: 1;
+            transform: translateY(0);
         }
 
         /* Text Animations */
         .content {
+            position: relative;
+            z-index: 1;
             opacity: 0;
-            transition: opacity 1.5s ease-in-out;
+            transform: translateY(20px);
+            transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+            font-size: 2em;
+            padding-bottom: 20px;
+            margin-top: -70vh; /* Increased to shift text higher */
         }
-        .visible {
+        .content.visible {
             opacity: 1;
+            transform: translateY(0);
         }
     </style>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <!-- Title Page -->
+    <section id="titlePage">
+        <h1 id="titleText">The Story of a Flower</h1>
+        <h2 id="subtitle">By: Asma Al Murr</h2>
+    </section>
 
     <!-- Section 1 - Seed -->
     <section id="section1">
         <div class="content" id="content1">
-            The seed is planted.
+            First, the seed is planted into soil.
         </div>
-        <img src="seed.jpg" alt="Seed" class="parallax bg1">
+        <img src="images/seed.jpg" alt="Seed" class="parallax" id="image1">
     </section>
 
     <!-- Section 2 - Sprout -->
     <section id="section2">
         <div class="content" id="content2">
-            The sprout breaks through the soil.
+            Secondly, the sprout breaks through the soil, showing the stem of the flower.
         </div>
-        <img src="sprout.jpg" alt="Sprout" class="parallax bg2">
+        <img src="images/sprout.jpg" alt="Sprout" class="parallax" id="image2">
     </section>
 
     <!-- Section 3 - Budding Flower -->
     <section id="section3">
         <div class="content" id="content3">
-            The flower bud begins to form.
+            Then, the bud begins to form, showing the color of the flower.
         </div>
-        <img src="budding.jpg" alt="Budding Flower" class="parallax bg3">
+        <img src="images/bud.jpg" alt="Budding Flower" class="parallax" id="image3">
     </section>
 
     <!-- Section 4 - Fully Grown Flower -->
     <section id="section4">
         <div class="content" id="content4">
-            The flower is in full bloom.
+            Lastly, the flower is in full bloom with bright and vibrant colors.
         </div>
-        <img src="bloom.jpg" alt="Full Bloom Flower" class="parallax bg4">
+        <img src="images/bloom.jpg" alt="Full Bloom Flower" class="parallax" id="image4">
     </section>
 
     <!-- JavaScript -->
     <script>
-        // Parallax Effect
-        window.addEventListener('scroll', function() {
-            let scrollPosition = window.pageYOffset;
-
-            document.querySelector('.bg1').style.transform = 'translateY(' + scrollPosition * 0.5 + 'px)';
-            document.querySelector('.bg2').style.transform = 'translateY(' + scrollPosition * 0.4 + 'px)';
-            document.querySelector('.bg3').style.transform = 'translateY(' + scrollPosition * 0.3 + 'px)';
-            document.querySelector('.bg4').style.transform = 'translateY(' + scrollPosition * 0.2 + 'px)';
-        });
-
-        // Content Fade-in on Scroll
+        // Reveal images and text on scroll
         function revealOnScroll() {
+            const images = document.querySelectorAll('.parallax');
             const contents = document.querySelectorAll('.content');
-            contents.forEach((content) => {
-                const contentTop = content.getBoundingClientRect().top;
+            const titleText = document.querySelector('#titleText');
+            const subtitle = document.querySelector('#subtitle');
+
+            // Reveal title text and subtitle on the title page
+            if (window.pageYOffset < window.innerHeight / 2) {
+                titleText.classList.add('visible');
+                subtitle.classList.add('visible');
+            }
+
+            images.forEach((img, index) => {
+                const imageTop = img.getBoundingClientRect().top;
                 const windowHeight = window.innerHeight;
 
-                if (contentTop < windowHeight - 100) {
-                    content.classList.add('visible');
+                // Check if the image is in the viewport
+                if (imageTop < windowHeight - 100) {
+                    img.classList.add('visible');
+                    contents[index].classList.add('visible');
                 }
             });
         }
 
+        // Run reveal on scroll
         window.addEventListener('scroll', revealOnScroll);
+
+        // Initially reveal title after load
+        window.addEventListener('load', () => {
+            const titleText = document.querySelector('#titleText');
+            const subtitle = document.querySelector('#subtitle');
+            titleText.classList.add('visible');
+            subtitle.classList.add('visible');
+        });
     </script>
 </body>
 </html>
