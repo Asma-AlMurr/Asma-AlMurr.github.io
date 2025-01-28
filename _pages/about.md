@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "About Me"
+title: "About Me :)"
 ---
 
 I’m Asma Al Murr, an 18-year-old who is passionate about art, film and a tennis enthusiast on the side. I'm from the vibrant city of Dubai, and currently pursuing a degree in Interactive Media at NYU Abu Dhabi! I love attending a libral arts university as it blends design, social sciences, and technology to craft a unique experience that sparks my curiosity and fuels all my passions. 
