@@ -3,6 +3,8 @@ permalink: /about/
 title: "About Me"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+I’m Asma Al Murr, an 18-year-old who is passionate about art, film and a tennis enthusiast on the side. I'm from the vibrant city of Dubai, and currently pursuing a degree in Interactive Media at NYU Abu Dhabi! I love attending a libral arts university as it blends design, social sciences, and technology to craft a unique experience that sparks my curiosity and fuels all my passions. 
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+Whether I’m on the court chasing a perfect serve or behind the lens capturin "the perfect" moment (even though I dont know exactly what that looks like yet), I’m driven by my curiosity and a love for storytelling. My projects often explore the intersections of identity, culture, and creativity, with a special focus on bridging the gap between Emirati artists and global audiences.
+
+This space is where I share my work, innovation, and the little details that make life my extraordinary. Thank you for stopping by, and I hope you leave inspired!
