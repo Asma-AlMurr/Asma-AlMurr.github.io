@@ -59,10 +59,8 @@ plugins:
 
 author:
   name   : "Asma Al Murr"
-  avatar : "/assets/images/Asma.jpg"
-  bio    : "NYUAD
-  Freshman
-   Interactive Media"
+  avatar : "DAAHSITE/assets/images/Asma.jpg"
+  bio    : "NYUAD Freshman, Interactive Media"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
