@@ -1,11 +1,11 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "DLN"
-    url: /DLN/
-  - title: "Tags"
-    url: /tags/
-  - title: "About Me"
-    url: /about/
-    - title: "Final Project"
-    url: /FinalProject/
+  -title: "Posts"
+url: /posts/
+- title: "DLN"
+  url: /DLN/
+- title: "Tags"
+  url: /tags/
+- title: "About Me"
+  url: /about/
+- title: "Final Project"
+  url: /FinalProject/
