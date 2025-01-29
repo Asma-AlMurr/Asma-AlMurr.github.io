@@ -1,5 +1,6 @@
 main:
-  -title: "Posts"
+  
+-title: "Posts"
 url: /posts/
 - title: "DLN"
   url: /DLN/
