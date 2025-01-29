@@ -7,3 +7,5 @@ main:
     url: /tags/
   - title: "About Me"
     url: /about/
+    - title: "Final Project"
+    url: /FinalProject/
