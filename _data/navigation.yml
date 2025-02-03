@@ -1,8 +1,8 @@
 main:
   - title: "Posts"
     url: /posts/
-  - title: "Digital Narrative"
-    url: /digital-narrative/
+  - title: "digital-narrative"
+    url: /DLN/
   - title: "Final Presentation"
     url: /final-presentation/
   - title: "Tags"
