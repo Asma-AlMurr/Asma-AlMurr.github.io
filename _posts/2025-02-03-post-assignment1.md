@@ -49,9 +49,9 @@ Similarly, classic horror narratives are often celebrated not only for their abi
 
 take a look at the termsberry (distinct words) for each text:
 
-![AI Text](assets/images/analysisAI.png)
-![Dracula](assets/images/analysisd.png)
-![Frankenstein](assets/images/analysisf.png)
+![AI Text](assets/images/termsAI.jpg)
+![Dracula](assets/images/termsD.jpg)
+![Frankenstein](assets/images/termsF.jpg)
 
 
 
