@@ -9,7 +9,8 @@ tags:
 
 # Horror Reimagined: A Corpus Analysis of Gothic Classics and AI-Generated Horror  
 
-### Asma Al Murr  
+### Ready for grading :)
+Asma Al Murr  
 Professor David Wrisley  
 Assignment 1  
 Intro to Digital Humanities  
