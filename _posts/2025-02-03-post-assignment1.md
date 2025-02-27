@@ -48,7 +48,7 @@ In my horror corpus analysis, I've noticed that the trend in AI research really 
 
 Similarly, classic horror narratives are often celebrated not only for their ability to scare but also for their exploration of deep, existential themes. Both novels tackle the dangers of human ambition. In “Frankenstein”, the creation of life without ethical boundaries serves as a cautionary tale about the consequences of playing God. Similarly, “Dracula” explores the invasion of the unknown into the familiar, creating a sense of dread as characters confront forces beyond their control. For instance, the word clouds showed large clusters around terms associated with darkness and time, which are central to the mood of Gothic horror. In contrast, the AI-generated text “Shadows in the Machine” offered a modern twist on these themes. While it maintained the essential elements of horror, such as the presence of an ominous digital entity and the fear of losing control, it did so through a vocabulary that is distinctly modern. Words like “digital,” machine,” and "screen" evoke a sense of technological theme that is entirely different from the fog-shrouded landscapes of “Dracula” or the scientific ambitions of “Frankenstein”. Yet, the underlying tension remains the same: a confrontation with the unknown, whether it takes the form of a supernatural vampire or a rogue AI.
 
-*Take a look at the termsberry (distinct words) for each text:*
+*Take a look at the termsberry/wordcloud (distinct words) for each text:*
 
 ![AI Text](/assets/images/termsAI.jpg)
 ![Dracula](/assets/images/termsD.jpg)
