@@ -14,6 +14,8 @@ Professor David Wrisley
 Assignment 1  
 Intro to Digital Humanities  
 
+[Click here to see my step by step planning document!](https://docs.google.com/document/d/1TTqWQbWGsCA1Owz0stf0CYbnItUeauTslmbXrw7XXI4/edit?usp=sharing). 
+
 ## Introduction: 
 
 I’ve never really been fond of horror. In fact, the genre always felt like uncharted territory, a strange world of shadowy figures and bloodcurdling thrills that never quite resonated with me. While my friends rave about movies or novels that deliver the perfect scare, I’d often pass on the experience. Yet this assignment provided the perfect excuse to dive headfirst into horror and uncover what makes it so captivating for so many people. During my analysis, I decided to explore two horror classics, Bram Stoker’s “Dracula” and Mary Shelley’s “Frankenstein”, along with an AI-generated horror text I created through Chat GPT titled “Shadows in the Machine”. These texts taken from Project Gutenberg are considered classics for a reason, they grapple with timeless themes such as the dangers of ambition and the tension between the known and the unknown. This analysis aims to explore the enduring appeal of horror classics by analyzing the thematic and stylistic elements that have allowed “Dracula” and “Frankenstein” to withstand the test of time, shaping the genre for generations and revealing what truly makes a story "classic."
@@ -22,6 +24,8 @@ Before this project, my understanding of horror was limited to a few tropes: jum
 
 ## Corpus:
 To better understand horror’s evolution, I compiled a corpus of three texts: Dracula, Frankenstein, and Shadows in the Machine, an AI-generated story. The first two, drawn from Project Gutenberg, represent the bedrock of Gothic horror. “Dracula” is steeped in atmosphere and dread, with its eerie descriptions of the night and its portrayal of an otherworldly creature that feasts on human blood. “Frankenstein”, on the other hand, delves into the ethical and emotional consequences of scientific ambition, questioning the limits of human endeavor. Both texts are rich with themes of isolation, and the clash between modernity and ancient superstition. The wildcard, “Shadows in the Machine”, created through a prompt I fed to ChatGPT, represents a modern reimagining of horror, a genre that has evolved alongside technological advancements. It incorporates contemporary digital motifs, such as references to “code,” “static,” and “digital” phenomena, which contrast sharply with the more traditional language and settings of the Gothic classics. This juxtaposition allowed me to explore how the conventions of horror are being reinterpreted in the digital age, and whether the same themes of terror and suspense persist when the source is a machine-generated narrative.
+
+This is the prompt I fed Chat GPT:
 
 ![Chat Prompt](/assets/images/chatprompt.jpg)
 
