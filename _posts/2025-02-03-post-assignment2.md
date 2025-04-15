@@ -33,6 +33,8 @@ The table I created from the Zanzibar Gazette data is the backbone of this analy
 
 This structured table not only serves as a historical record but also enables deeper analysis by allowing comparisons between different product categories and their economic significance. The process of organizing this data made it easier to visualize Zanzibar's role in global trade, as the various categories can be analyzed for their economic impact. This also highlights the diversity of Zanzibar’s exports, ranging from luxury items to agricultural products, and their significance in shaping Zanzibar's interactions with other regions.
 
+![my1.jpg](/assets/images/my1.jpg)
+![my2.jpg](/assets/images/my2.jpg)
 
 ## Article “Provocations from the Humanities for Generative AI Research”
 
@@ -67,8 +69,12 @@ Despite these challenges, the AI tools provided a good starting point by organiz
 > **Prompt 1**: "Turn these images of exports from the Zanzibar Gazette into a visual table"  
 *Only did 16 rows*
 
+![chattable1.jpg](/assets/images/chattable1.jpg)
+
 > **Prompt 2**: "Turn these images of exports from the Zanzibar Gazette into a visual table by extracting all the rows, and including the region it is being exported to, then making it a readable table."  
 *Completed 50 first rows*
+
+![chattable2.jpg](/assets/images/chattable2.jpg)
 
 ChatGPT 4.5, the newest beta model available in the paid version, showed good potential in digitizing historical data from the provided Gazette images. It took approximately 4 minutes to process and display the extracted data. The AI accurately captured numerical values and identified merchandise items, which was impressive given the complexity and somewhat compromised quality of the original document. However, there were notable limitations. The first attempt yielded only 16 rows of data, significantly fewer than the total available entries. After requesting a more comprehensive extraction, ChatGPT was able to produce approximately half (around 50 row) of the total dataset. Yet, despite this progress, ChatGPT continued to encounter errors, particularly a "mismatch in the data arrays" that disrupted further extraction. This recurring issue led to a loop of corrections without substantial progress, resulting in the first image being partially processed. As a result, I decided to switch tools and use Gemini to complete the task.
 
@@ -77,8 +83,12 @@ ChatGPT 4.5, the newest beta model available in the paid version, showed good po
 > **Prompt 1**: "Convert the entire list of exported items from this Gazette into a visual table, including merchandise names, regions exported to, weights, number of packages, and their respective values."  
 *Only did first 50 rows*
 
+![gem1.jpg](/assets/images/gem1.jpg)
+
 > **Prompt 2**: "Now combine both of the tables into one big downloadable table"  
 *All rows completed and downloaded to sheets*
+
+![gem2.jpg](/assets/images/gem2.jpg)
 
 Gemini, in contrast, provided a much more efficient and accurate experience. It generated the required results within seconds, significantly outperforming ChatGPT in speed and accuracy. I had to break the extraction task into two parts due to Gemini's limitation of analyzing one image at a time. However, Gemini promptly extracted and structured the data from each image independently, identifying the merchandise items, regions, and numerical values with minimal manual intervention. When I instructed Gemini to combine both sets of extracted data into a unified table, it did so smoothly, without encountering the alignment or data mismatch errors that occurred with ChatGPT. Throughout the entire process, Gemini was stable and efficient, requiring fewer corrections and providing a reliable dataset for further analysis. Its ability to interpret OCR data and transform it into a structured table made Gemini the preferred tool for completing the task.
 
@@ -113,6 +123,8 @@ ChatGPT helped categorize the items by their historical significance, from luxur
 ### Challanges
 One of the major challenges I faced was converting the Zanzibar Rupees from 1919 to present-day value in U.S. Dollars. While ChatGPT was not helpful in providing accurate conversions, Gemini proved more effective. I used it to get more reliable and precise values, as the process of converting the historical currency to modern values would have been difficult manually. Both AI tools struggled with extracting information from the Gazette documents, particularly the OCR/ text layer quality of the scanned images. While Gemini performed better than ChatGPT, I still had to manually fix many of the extracted numbers to ensure accuracy. This was a surprising shortcoming, given the tools' advanced capabilities, but it provided valuable insight into the limitations of AI-driven data extraction.
 
+![error.jpg](/assets/images/error.jpg)
+
 ## Overpass Turbo and Kepler:
 Overpass Turbo was an essential tool for locating key places in the regions with the most dense export data in my project. I used it to find specific locations related to the export data, including terms like...
 
@@ -122,12 +134,19 @@ All these places were focused near Africa, the region with the highest concentra
 
 For further visualization, I used Kepler to map the data after converting the Zanzibar Gazette’s export information into a GEOJSON file with the help of ChatGPT, which I didnt know it could do so smoothly. Since the original Gazette only specified general regions or continents without pinpointing exact ports, I used Overpass Turbo to find relevant ports in these regions. By applying the coordinates of these ports to my dataset, I was able to create a more accurate map of Zanzibar’s export destinations. However, due to the repetitive nature of these regions, the map shows fewer points, as they are clustered in areas that Zanzibar most likely used for its exports. The key pinned location, marked in red, represents Zanzibar, helping to visualize its central role in global trade during the period of 1919.
 
+![farm.jpg](/assets/images/farm.jpg)
+![garden.jpg](/assets/images/garden.jpg)
+![port.jpg](/assets/images/port.jpg)
+
 
 ## Mapping the Data: Identifying Patterns and Clusters
 
 Once the data was organized and cleaned, I used mapping tools to visualize the export destinations and their concentrations. Mapping the data revealed some interesting patterns, particularly in areas where trade was most concentrated, such as the Arabian Peninsula and mainly parts in Africa. These regions showed higher densities of export points, which aligns with historical trade routes that connected Zanzibar to key markets in these regions.
 
 Mapping additional columns, such as product types, export importance, and geographic regions, allowed for a more nuanced visualization. While the data didn’t reveal strong clusters, it did show the diverse spread of goods being traded and helped to highlight Zanzibar’s central role in global commerce. The mapping also reinforced the idea that Zanzibar’s trade was closely tied to specific geographical regions, with different commodities being exported to different areas based on market demand. For example in the table, I saw most manufactured goods stayed in the region of Africa.
+
+![kepler.jpg](/assets/images/kepler.jpg)
+
 
 ## Future Analysis: Scaling Up the Project
 
