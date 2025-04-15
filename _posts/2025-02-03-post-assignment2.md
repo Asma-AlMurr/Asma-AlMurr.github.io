@@ -9,8 +9,8 @@ tags:
 
 # Analyzing Exports in the Zanzibar Gazette 1919
 
--  Link to Google Sheets Data Set
--  Link to Assignment planning document
+-  [Link to Google Sheets Data Set](https://docs.google.com/spreadsheets/d/1jeGCwgaVEl6kIYqp_drMBUdYMZfKW62KINJNu6e3ONM/edit?usp=sharing)
+-  [Link to Assignment planning document](https://docs.google.com/document/d/1_oL0zZSKZlHh7l9-Oi7sSMXpzjcFw_mbSzRjmW_f3As/edit?usp=sharing)
 -  Note: My data set is also available in my assets folder!
 
 
@@ -38,7 +38,7 @@ This structured table not only serves as a historical record but also enables de
 
 ## Article “Provocations from the Humanities for Generative AI Research”
 
-Incorporating the article *Provocations from the Humanities for Generative AI Research* into this essay allows me to address the intersection between technology and humanities in historical data analysis. The article critiques the limitations of AI models in generating meaningful insights from historical data. Specifically, the authors highlight that while AI can process large datasets, it often lacks the ability to truly understand the cultural and historical context behind the data it processes.
+Incorporating the article [*Provocations from the Humanities for Generative AI Research*](https://arxiv.org/abs/2502.19190) into this essay allows me to address the intersection between technology and humanities in historical data analysis. The article critiques the limitations of AI models in generating meaningful insights from historical data. Specifically, the authors highlight that while AI can process large datasets, it often lacks the ability to truly understand the cultural and historical context behind the data it processes.
 
 In my project, AI tools like ChatGPT and Gemini helped automate the extraction of data from the Zanzibar Gazette, but as the article suggests, these tools struggled to interpret the full significance of the data. For instance, while AI models could extract merchandise categories and their values, they couldn't fully account for every single row on the table and started to make up random values. This insight from the article aligns with my experience, where the automation of data extraction provided structure but lacked depth and accuracy in understanding the historical document. The article’s critique underscores the importance of human interpretation when working with AI-generated data.
 
@@ -120,7 +120,7 @@ ChatGPT was instrumental in refining the dataset further. I asked it to provide 
 
 ChatGPT helped categorize the items by their historical significance, from luxury commodities like ivory and rhino horns to agricultural products like copra and wax. Additionally, I used ChatGPT and Overpass Turbo to geocode potential shipping ports, gardens and farms, focusing on regions such as Africa and India, where Zanzibar likely used ports or farms for exporting goods, then copying the coordinates by hand. This was an essential step to link the merchandise with their most probable export coordinates. I used this information provided by ChatGPT and Overpass Turbo to enrich the dataset.
 
-### Challanges
+### Challenges
 One of the major challenges I faced was converting the Zanzibar Rupees from 1919 to present-day value in U.S. Dollars. While ChatGPT was not helpful in providing accurate conversions, Gemini proved more effective. I used it to get more reliable and precise values, as the process of converting the historical currency to modern values would have been difficult manually. Both AI tools struggled with extracting information from the Gazette documents, particularly the OCR/ text layer quality of the scanned images. While Gemini performed better than ChatGPT, I still had to manually fix many of the extracted numbers to ensure accuracy. This was a surprising shortcoming, given the tools' advanced capabilities, but it provided valuable insight into the limitations of AI-driven data extraction.
 
 ![error.jpg](/assets/images/error.jpg)
@@ -159,3 +159,11 @@ While the Zanzibar Gazette provided rich data for this project, an ideal source 
 ## Conclusion
 
 The Zanzibar Gazette’s export data from September 1919 offers a detailed look at Zanzibar’s economy and its role in global trade during the early 20th century. By using AI tools like ChatGPT and Gemini to automate the extraction and analysis of this data, I was able to uncover valuable insights into the merchandise that shaped Zanzibar’s economic activity. The process also highlighted the limitations of AI, particularly in interpreting historical data, which underscores the importance of human intervention in data analysis. Moving forward, expanding this project to cover multiple years and incorporating additional sources would provide a deeper understanding of Zanzibar’s economic evolution and its interactions with global markets.
+
+## Citations:
+[Provocations from the Humanities for Generative AI Research](https://arxiv.org/abs/2502.19190) 
+
+MLA 9:
+Klein, Lauren, et al. “Provocations from the Humanities for Generative AI Research.” ArXiv.org, 2025, arxiv.org/abs/2502.19190. Accessed 8 Mar. 2025.
+
+
