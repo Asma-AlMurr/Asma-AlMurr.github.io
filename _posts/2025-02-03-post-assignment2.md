@@ -13,6 +13,7 @@ tags:
 -  [Link to Assignment planning document](https://docs.google.com/document/d/1_oL0zZSKZlHh7l9-Oi7sSMXpzjcFw_mbSzRjmW_f3As/edit?usp=sharing)
 -  Note: My data set is also available in my assets folder!
 
+Ready For Grading :)
 
 ## Introduction
 
@@ -125,7 +126,7 @@ One of the major challenges I faced was converting the Zanzibar Rupees from 1919
 
 ![error.jpg](/assets/images/error.jpg)
 
-## Overpass Turbo and Kepler:
+## Overpass Turbo and Kepler
 Overpass Turbo was an essential tool for locating key places in the regions with the most dense export data in my project. I used it to find specific locations related to the export data, including terms like...
 
 > "Port," "Farm," and "Garden" 
@@ -144,6 +145,8 @@ For further visualization, I used Kepler to map the data after converting the Za
 Once the data was organized and cleaned, I used mapping tools to visualize the export destinations and their concentrations. Mapping the data revealed some interesting patterns, particularly in areas where trade was most concentrated, such as the Arabian Peninsula and mainly parts in Africa. These regions showed higher densities of export points, which aligns with historical trade routes that connected Zanzibar to key markets in these regions.
 
 Mapping additional columns, such as product types, export importance, and geographic regions, allowed for a more nuanced visualization. While the data didn’t reveal strong clusters, it did show the diverse spread of goods being traded and helped to highlight Zanzibar’s central role in global commerce. The mapping also reinforced the idea that Zanzibar’s trade was closely tied to specific geographical regions, with different commodities being exported to different areas based on market demand. For example in the table, I saw most manufactured goods stayed in the region of Africa.
+
+(The blue dots are the export locations, and the red pin is Zanzibar)
 
 ![kepler.jpg](/assets/images/kepler.jpg)
 
