@@ -9,6 +9,11 @@ tags:
 
 # Analyzing Exports in the Zanzibar Gazette 1919
 
+-  Link to Google Sheets Data Set
+-  Link to Assignment planning document
+-  Note: My data set is also available in my assets folder!
+
+
 ## Introduction
 
 Zanzibar, a small yet historically significant island off the coast of East Africa, played a central role in global trade during the early 20th century. In September 1919, the Zanzibar Gazette documented the island's bustling export economy, which included valuable commodities like spices, ivory, and animal products. This essay takes a closer look at these export activities, examining not only the economic impact of these goods but also how modern technology, like AI tools such as ChatGPT and Gemini, can help us uncover insights from historical data. By exploring the challenges and successes of using AI to analyze such a complex dataset, this project aims to shed light on how Zanzibar's exports shaped global markets—and how the intersection of history and technology can offer a new perspective on the past.
@@ -16,6 +21,12 @@ Zanzibar, a small yet historically significant island off the coast of East Afri
 ## Why I Chose This Document (Exports September 1919)
 
 The Zanzibar Gazette is a historical newspaper that documents the trade and export activities of Zanzibar. It serves as an official record of commercial, social, and political events, particularly related to Zanzibar’s role as a significant export hub. The table  I used consisted of 111 rows of merchendise data. This type of source is primary, offering a firsthand account into the economic landscape of the time. I chose the export data from September 1919 for its rich historical value and a insight to Zanzibar's role in the spice and ivory trade. It also includes information about the geographical locations associated with exports. The data reflects the economic activity of the period, detailing specific products, quantities, and possibly trade partners or destinations. By focusing on this particular issue, I aimed to explore the breadth of Zanzibar's export commodities and their significance in the context of global trade during the early 20th century. Zanzibar's strategic position in the Indian Ocean and its established trade routes with Europe, Asia, and Africa made it a vital node in the global market. Analyzing the data from the Gazette offers a detailed view of how Zanzibar interacted with these regions, providing insights into the commodities that shaped the island’s economy and its global connections.
+
+<img src="/assets/{gazt1}.jpg" style="zoom:50%"/>
+
+<img src="/assets/{gazt2}.jpg" style="zoom:50%"/>
+
+
 
 ## The Table: Organizing the Data
 
