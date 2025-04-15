@@ -135,8 +135,13 @@ All these places were focused near Africa, the region with the highest concentra
 
 For further visualization, I used Kepler to map the data after converting the Zanzibar Gazette’s export information into a GEOJSON file with the help of ChatGPT, which I didnt know it could do so smoothly. Since the original Gazette only specified general regions or continents without pinpointing exact ports, I used Overpass Turbo to find relevant ports in these regions. By applying the coordinates of these ports to my dataset, I was able to create a more accurate map of Zanzibar’s export destinations. However, due to the repetitive nature of these regions, the map shows fewer points, as they are clustered in areas that Zanzibar most likely used for its exports. The key pinned location, marked in red, represents Zanzibar, helping to visualize its central role in global trade during the period of 1919.
 
+Farm as the input:
 ![farm.jpg](/assets/images/farm.jpg)
+
+Garden as the input:
 ![garden.jpg](/assets/images/garden.jpg)
+
+Port as the input:
 ![port.jpg](/assets/images/port.jpg)
 
 
