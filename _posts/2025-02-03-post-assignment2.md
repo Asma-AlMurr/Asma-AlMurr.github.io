@@ -11,7 +11,7 @@ tags:
 
 ## Introduction
 
-The Zanzibar Gazette's export data from September 1919 offers a vital historical snapshot of Zanzibar’s trade economy during a transformative period. Zanzibar, an island off the coast of East Africa, was a central hub in the global spice trade and other exports, including ivory and animal products. This project aims to explore the export activities documented in the Gazette, using advanced AI tools like ChatGPT and Gemini to automate data extraction and analysis. The project delves into the economic impact of Zanzibar’s exports, the role of technology in analyzing historical data, and the challenges posed by AI in handling such complex datasets.
+Zanzibar, a small yet historically significant island off the coast of East Africa, played a central role in global trade during the early 20th century. In September 1919, the Zanzibar Gazette documented the island's bustling export economy, which included valuable commodities like spices, ivory, and animal products. This essay takes a closer look at these export activities, examining not only the economic impact of these goods but also how modern technology, like AI tools such as ChatGPT and Gemini, can help us uncover insights from historical data. By exploring the challenges and successes of using AI to analyze such a complex dataset, this project aims to shed light on how Zanzibar's exports shaped global markets—and how the intersection of history and technology can offer a new perspective on the past.
 
 ## Why I Chose This Document (Exports September 1919)
 
@@ -31,7 +31,8 @@ In my project, AI tools like ChatGPT and Gemini helped automate the extraction o
 
 > **Quote from the Article**:  
 > “Models make words, but people make meaning” (Provocations, page 5).  
-> This quote resonates with my work as it emphasizes that while AI tools can assist in generating data, it is ultimately the researcher who gives that data its meaningful context. In my case, while ChatGPT and Gemini helped process the export data, it was up to me to interpret the cultural, economic, and geopolitical significance behind the data.
+
+This quote resonates with my work as it emphasizes that while AI tools can assist in generating data, it is ultimately the researcher who gives that data its meaningful context. In my case, while ChatGPT and Gemini helped process the export data, it was up to me to interpret the cultural, economic, and geopolitical significance behind the data.
 
 ## Prompt Engineering: Maximizing AI Tool Performance
 
@@ -41,7 +42,8 @@ These refinements helped generate more accurate results, but there were still li
 
 > **Quote from the Article**:  
 > “LLMs generate text by predicting sequences of words. These predictions are based on both observed patterns and on human preferences and feedback. The result is often output that is factually wrong yet linguistically fluent and seemingly coherent—these are the hallucinations.” (Provocations, page 6).  
-> This quote is directly applicable to my experience with AI tools. While AI tools like ChatGPT generated fluent and seemingly coherent data, I often had to intervene to correct factual inaccuracies, especially when converting currency or correcting geographical data.
+
+This quote is directly applicable to my experience with AI tools. While AI tools like ChatGPT generated fluent and seemingly coherent data, I often had to intervene to correct factual inaccuracies, especially when converting currency or correcting geographical data.
 
 ## Automation Performance and Data Cleaning
 
@@ -77,6 +79,27 @@ Cleaning the dataset after OCR extraction required substantial manual effort due
 >“I find the new models are the best and then they tend to deteriorate or hallucinate more often as they are trained on new noisy data or the engineers stop paying attention to them while they focus on newer versions.” -R.K (former student)
 
 This quote by R.K. highlights an insightful observation about the lifecycle of AI language models. It underscores a common challenge: while newer models initially demonstrate remarkable accuracy and capabilities, there's a risk that their performance may degrade over time due to exposure to noisy or lower-quality data. This phenomenon, often referred to as "model drift," occurs when continual training incorporates inaccuracies or biases from uncontrolled data, causing the model to produce less reliable outputs or to "hallucinate" facts more frequently. Moreover, R.K.’s point also addresses an important aspect of resource allocation in AI development. As engineers shift their attention towards developing the next generation of models, existing ones may receive less rigorous monitoring, tuning, and fine-tuning, further contributing to their decline in reliability. This observation emphasizes the importance of sustained maintenance, rigorous quality control, and periodic retraining using carefully curated datasets to maintain a model's accuracy and reliability over time. It's a valuable reminder that continuous attention, rather than just initial deployment, is crucial for the long-term success and stability of AI systems.
+
+### How I Created My Dataset In Collaboration With The AI Tool:
+I used Gemini to visualize the dataset from the Zanzibar Gazette document, as it provided more accurate numerical results compared to other tools. Gemini's table structure helped me create a coherent and organized dataset, serving as a guide for structuring my own. I also utilized Gemini to suggest additional categories for organizing the data, helping ensure that the table captured all relevant details by asking things like “List ideas on how I can make my dataset more structured and organized” or attaching my table and asking
+
+>“How could I improve this dataset?"
+ 
+ This was essential for making the data both readable and comprehensive. In addition, I sought to improve the presentation of the table by implementing color coding, which I achieved by organizing the merchandise into sections such as "Food Products," "Animal Trade," and "Manufactured Goods." I then assigned specific colors, like red for food items, to visually differentiate between these categories.
+
+ChatGPT was instrumental in refining the dataset further. I asked it to provide historical tags for the merchandise categories and assign an appropriate level of export importance for each item. I got this idea by asking 
+
+>“How can I further structure my categories and add a level of organization to the rows.” 
+
+ChatGPT helped categorize the items by their historical significance, from luxury commodities like ivory and rhino horns to agricultural products like copra and wax. Additionally, I used ChatGPT to geocode potential shipping ports, focusing on regions such as Africa and India, where Zanzibar likely used ports for exporting goods, then copying the coordinates by hand. This was an essential step to link the merchandise with their most probable shipping ports, and I used the coordinates provided by ChatGPT to enrich the dataset.
+
+### Challanges
+One of the major challenges I faced was converting the Zanzibar Rupees from 1919 to present-day value in U.S. Dollars. While ChatGPT was not helpful in providing accurate conversions, Gemini proved more effective. I used it to get more reliable and precise values, as the process of converting the historical currency to modern values would have been difficult manually. Both AI tools struggled with extracting information from the Gazette documents, particularly the OCR/ text layer quality of the scanned images. While Gemini performed better than ChatGPT, I still had to manually fix many of the extracted numbers to ensure accuracy. This was a surprising shortcoming, given the tools' advanced capabilities, but it provided valuable insight into the limitations of AI-driven data extraction.
+
+## Overpass Turbo and Kepler:
+Overpass Turbo was an essential tool for locating key places in the regions with the densest export data in my project. I used it to find specific locations related to the export data, including terms like "Port," "Farm," and "Garden," all near Africa, the region with the highest concentration of exports in the dataset. By focusing on these terms, Overpass Turbo helped identify specific geographic areas that were most likely tied to Zanzibar's trade routes during the early 20th century. These locations, while broad in the Gazette, could be pinpointed more precisely with the tool, allowing me to enhance the accuracy of my analysis.
+
+For further visualization, I used Kepler to map the data after converting the Zanzibar Gazette’s export information into a GEOJSON file with the help of ChatGPT. Since the original Gazette only specified general regions or continents without pinpointing exact ports, I used Overpass Turbo to find relevant ports in these regions. By applying the coordinates of these ports to my dataset, I was able to create a more accurate map of Zanzibar’s export destinations. However, due to the repetitive nature of these regions, the map shows fewer points, as they are clustered in areas that Zanzibar most likely used for its exports. The key locations, marked in red, represent Zanzibar, helping to visualize its central role in global trade during the period from 1918 to 1920.
 
 
 ## Mapping the Data: Identifying Patterns and Clusters
