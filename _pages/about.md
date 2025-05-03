@@ -7,4 +7,4 @@ I’m Asma Al Murr, an 18-year-old who is passionate about art, film and a tenni
 
 Whether I’m on the court chasing a perfect serve or behind the lens capturing "the perfect" moment (even though I dont know exactly what that looks like yet), I’m driven by my curiosity and a love for storytelling. My projects often explore the intersections of identity, culture, and creativity, with a special focus on bridging the gap between Emirati artists and global audiences.
 
-This space is where I share my work, innovation, and the little details that make life my extraordinary. Thank you for stopping by, and I hope you leave inspired!
+This space is where I share my work, innovation, and the little details I learned over the course of this semester (Spring 2025). Thank you for stopping by, and I hope you leave inspired!
