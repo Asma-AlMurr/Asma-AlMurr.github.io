@@ -146,7 +146,7 @@ I used DV Explorer’s image captioning model (Section 5.2) to run a self-design
 ### **Easy Image**
 > *Caption:* “A piece of food on a sidewalk”  
 > **Actual:** Me holding a croissant  
-The model missed both the croissant’s identity and the human interaction, reducing a cultural moment to a generic object.
+The model missed both the croissant and the fact that I was holding it.
 
 ![food.png](/assets/images/food.png)
 
