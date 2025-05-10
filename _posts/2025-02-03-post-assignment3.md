@@ -6,6 +6,7 @@ categories:
 tags:
   - Assignments
 ---
+
 # **Paris in Focus: Clustering the Elements of this City**
 
 **Asma Al Murr**  
@@ -19,6 +20,7 @@ May 11, 2025
 
 In this final assignment, I set out to explore how visual culture—specifically, the city of Paris—could be computationally analyzed using tools like Orange Data Mining and DV Explorer. My custom-built image corpus, composed of 125 visuals across six categories (Cafés, Landmarks, Parks, Rivers, Graffiti, and Night), was intentionally curated to challenge how machine vision systems classify and interpret urban imagery. Rather than relying on pre-trained datasets like COCO, my goal was to push algorithms to interpret a dataset rich in ambiguity, atmosphere, and personal perspective.
 
+![folders.png](/assets/images/folders.png)
 ---
 
 ## **Corpus Building**
