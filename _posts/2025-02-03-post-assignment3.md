@@ -16,6 +16,8 @@ May 11, 2025
 
  My image corpus in on my [GitHub](https://github.com/Asma-AlMurr/Asma-AlMurr.github.io/tree/master/assets/corpus%20split%20into%20categories)
 
+Here is my [planning document](https://docs.google.com/document/d/1kuEAEaY6AaO-aZVB5KQHR_vQiFFTKZUw5B6OfH4x4b0/edit?tab=t.0)
+
 ---
 
 ## **Introduction**
