@@ -106,6 +106,9 @@ Here is the actual image for context:
 
 With the dataset now organized into subfolders by category, I generated a confusion matrix using Inceptionv3. Results were strong overall:
 
+![CM.png](/assets/images/CM.png)
+
+
 ### **High Accuracy Clusters**
 - **Café:** 21/21 (Perfect)
 - **Graffiti:** 17/20
@@ -120,8 +123,6 @@ With the dataset now organized into subfolders by category, I generated a confus
 - Categories with strong **color, texture, or symmetry** (e.g., café interiors, bridges) fared best.
 - **Night** and **Parks** were less accurately classified due to visual ambiguity.
 - Machine vision evaluates *what images look like*, not *what they mean*—a reminder of the semiotic gap between human and algorithmic perception.
-
-> **Insert here** (Confusion Matrix Image)
 
 ---
 
@@ -138,27 +139,33 @@ This idea resonated strongly throughout the assignment. While I approached the c
 
 I used DV Explorer’s image captioning model (Section 5.2) to run a self-designed experiment using four images of increasing complexity: easy, medium, and hard.
 
-> **Insert here** (DV Explorer interface + caption results)
-
 ### **Easy Image**
 > *Caption:* “A piece of food on a sidewalk”  
 > **Actual:** Me holding a croissant  
 The model missed both the croissant’s identity and the human interaction, reducing a cultural moment to a generic object.
+
+![food.png](/assets/images/food.png)
 
 ### **Medium Image #1**
 > *Caption:* “A boat traveling down a river next to a city”  
 > **Actual:** Boat on the Seine  
 This was highly accurate, proving the model’s strength with typical urban environments.
 
+![water.png](/assets/images/water.png)
+
 ### **Medium Image #2**
 > *Caption:* “A clock tower towering over a city at night”  
 > **Actual:** Eiffel Tower at night  
 Though it got the time of day right, the caption misrecognized one of the world’s most famous structures. This exposed the model’s limitations with cultural context.
 
+![tower.png](/assets/images/tower.png)
+
 ### **Hard Image**
 > *Caption:* “A series of photos showing a stairway with a large staircase”  
 > **Actual:** Spiral staircase with graffiti, shot from below  
 While imperfect, the model recognized the staircase and hinted at graffiti as “photos”—a surprisingly rich misreading that acknowledged artistic presence.
+
+![stair.png](/assets/images/stair.png)
 
 ---
 
