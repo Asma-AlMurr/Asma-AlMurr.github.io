@@ -9,6 +9,8 @@ tags:
 
 # **Paris in Focus: Clustering the Elements of this City**
 
+Ready For Grading 
+
 **Asma Al Murr**  
 Professor David Wrisley  
 DAAH Assignment 3 – *Visual AI and Culture*  
