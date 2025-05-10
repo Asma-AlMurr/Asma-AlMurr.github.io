@@ -29,6 +29,8 @@ In this final assignment, I set out to explore how visual culture—specifically
 
 My dataset, *Paris in Focus: Clustering the Elements of this City*, included approximately 20–25 images per category. These categories were selected not for their object recognition clarity, but for their cultural and environmental relevance to Paris. Some images came from my personal photography, taken during a recent trip to Paris, while others were sourced online. This diverse composition allowed the project to reflect Paris’s multifaceted character while also introducing visual variability that could test the limits of machine vision.
 
+![orange.png](/assets/images/orange.png)
+
 ### **Automation Process**
 
 To compile the images, I used the **Image Downloader** browser extension, enabling bulk downloads from platforms like:
@@ -38,6 +40,8 @@ To compile the images, I used the **Image Downloader** browser extension, enabli
 - [Getty Images](https://www.gettyimages.com)
 
 Automation accelerated the image-gathering process and introduced randomness into the dataset—an important factor for cultural exploration. I ensured compliance with assignment guidelines by filtering out human faces and organizing the images into labeled folders to match each of the six categories.
+
+![imgdownloader.png](/assets/images/imgdownloader.png)
 
 ---
 
@@ -53,11 +57,15 @@ The inspiration behind this corpus emerged during my recent visit to Paris. Wand
 > “Spiral staircase Paris”  
 > “Seine river view”  
 
+![searchprompt.png](/assets/images/searchprompt.png)
+
 This open-ended prompting strategy allowed the algorithmic tools I used to “surprise” me with their interpretation of the visual data, embracing an exploratory methodology similar to what Arnold and Tilton describe as *distant viewing*.
 
 ---
 
 ## **Orange Data Mining: Image Plot and Clustering**
+
+![preset.png](/assets/images/preset.png)
 
 ### **Initial Observations**
 
@@ -66,7 +74,7 @@ After loading my corpus into the pre-set Orange Data Mining workflow (`images2.o
 > “The network was clustering images based more on formal visual traits than on thematic content”  
 > — *Observation from image plot*
 
-> **Insert here** (Image Plot of Full Corpus using Inceptionv3)
+![plotcorpus.png](/assets/images/plotcorpus.png)
 
 Each quadrant of the image plot reflected dominant visual features:
 - **Top Left:** Café imagery (warm tones, interiors)
@@ -77,14 +85,20 @@ Each quadrant of the image plot reflected dominant visual features:
 
 ### **Hierarchical Clustering and Visual Tensions**
 
+![corpusH.png](/assets/images/corpusH.png)
+
 To investigate further, I used **hierarchical clustering with Ward linkage**. A meaningful pattern emerged: the Seine River photos formed a clean, precise cluster, likely due to blue hues and horizontal reflections. However, one graffiti image was misclassified into the river group.
+
+![Foldermistake.png](/assets/images/Foldermistake.png)
 
 > “This moment reinforced how machine learning models don't think in strict categories—they interpret visual proximity and dominant features.”
 
 The mistake made sense upon review: the graffiti was painted on a wall above the Seine. The visible river behind the art confused the algorithm—but that confusion revealed a key truth about machine interpretation.
+ 
 
-> **Insert here** (Hierarchical Clustering Dendrogram)  
-> **Insert here** (Graffiti image misclassified as River)
+Here is the actual image for context:
+
+![river.jpg](/assets/images/river.jpg)
 
 ---
 
