@@ -170,4 +170,7 @@ This assignment revealed both the possibilities and limitations of machine visio
 ## **Citations**
 
 - Arnold, Taylor, and Lauren Tilton. *Distant Viewing: Computational Exploration of Digital Images*. MIT Press, 2023. [MIT Press Link](https://mitpress.mit.edu/9780262546133/distant-viewing/)
+
 - Impett, Leonardo, and Fabian Offert. “There Is a Digital Art History.” *Visual Resources*, vol. 38, no. 2, 2022, pp. 186–209. [DOI](https://doi.org/10.1080/01973762.2024.2362466)
+
+
