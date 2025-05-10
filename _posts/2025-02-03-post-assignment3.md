@@ -14,6 +14,8 @@ Professor David Wrisley
 DAAH Assignment 3 – *Visual AI and Culture*  
 May 11, 2025
 
+ My image corpus in on my [GitHub](https://github.com/Asma-AlMurr/Asma-AlMurr.github.io/tree/master/assets/corpus%20split%20into%20categories)
+
 ---
 
 ## **Introduction**
