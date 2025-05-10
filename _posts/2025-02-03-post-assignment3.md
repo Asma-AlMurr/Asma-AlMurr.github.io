@@ -51,7 +51,7 @@ Automation accelerated the image-gathering process and introduced randomness int
 
 ## **Prompting Strategy and Personal Influence**
 
-The inspiration behind this corpus emerged during my recent visit to Paris. Wandering the city at different times—especially during golden hour and late at night—gave me a deeper appreciation for its layered aesthetic identity. Some of my own photographs captured these moments, while others were found online using deliberately vague prompts.
+The inspiration behind this corpus emerged during my recent visit to Paris. Wandering the city at different times—especially during golden hour and late at night—gave me a deeper appreciation for its layered aesthetic identity. Some of my own photographs captured these moments, while others were sourced using deliberately vague prompts.
 
 > **Prompts I used included:**  
 > “Paris at night”  
@@ -63,7 +63,7 @@ The inspiration behind this corpus emerged during my recent visit to Paris. Wand
 
 ![searchprompt.png](/assets/images/searchprompt.png)
 
-This open-ended prompting strategy allowed the algorithmic tools I used to “surprise” me with their interpretation of the visual data, embracing an exploratory methodology similar to what Arnold and Tilton describe as *distant viewing*.
+This open-ended prompting strategy allowed me find the best images from a range of different categories embracing an exploratory methodology similar to what Arnold and Tilton describe as *distant viewing*.
 
 ---
 
